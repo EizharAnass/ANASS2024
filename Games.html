@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<head><title>Games</title></head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+</style>
+</head>
+<body style="background-color:white;">
+
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <div class="dropdown">
+  <button class="dropbtn" onclick="myFunction()">Jump to
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-content" id="myDropdown">
+    <a href="Personal details.html">Personal Details</a>
+    <a href="My Family.html">My Family</a>
+    <a href="Cats.html">Cats</a>
+    <a href="Music.html">Music</a>
+    <a href="School.html">School</a>
+    <a href="University.html">University</a>
+  </div>
+  </div> 
+</div>
+
+
+
+<script>
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+}
+</script>
+<style>
+.city {
+  background-color:skyBlue;
+  color: Black;
+  border: 2px;
+  margin: 20px;
+  padding: 20px;
+}
+</style>
+<body>
+
+<div class="city">
+<center><h1>GAMES</h1></center>
+</div> 
+<style>
+body{
+background-image:url('img/games.jpeg');
+}
+</style>
+
+<style>
+.Anass{
+  background-color:#B07A6E;
+  color: white;
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+}
+ .text {
+            max-width: 100%;
+            padding: 20px;
+            font-family: verdana;
+            text-align:center;
+            color:white;
+            background-color:skyblue;
+        }
+.text2 {
+            max-width: 100%;
+            padding: 20px;
+            font-family: verdana;
+            text-align:center;
+            color:black;
+           
+        }
+
+.Games {
+            width: 30%; 
+            height: 20%
+        }
+
+</style>
+<body>
+<div class="Anass">
+<div class="text">
+ <p>As I mention in my personal details,during my free time i like to play some video games through my laptop,Below are some of the games that i play and wish to play:</p>
+  <div class="text2">
+  <h3> GAMES THAT I CURRENTLY PLAY </h3> 
+   <img src=img/Pes2021.png class="Games"> 
+   <img src=img/Chilvary.png class="Games"> 
+   <img src=img/dogs.png class="Games"> 
+   <img src=img/Fifa.png class="Games"> 
+   <img src=img/dead.png class="Games">
+</div>
+</div>
+</div>
+<hr>
+<style>
+.Anass{
+  background-color:#B07A6E;
+  color: white;
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+}
+ .text {
+            max-width: 100%;
+            padding: 20px;
+            font-family: verdana;
+            text-align:center;
+            color:white;
+        }
+.text2 {
+            max-width: 100%;
+            padding: 20px;
+            font-family: verdana;
+            text-align:center;
+            color:black;
+        }
+
+.Games {
+            width: 30%; 
+            height: 20%
+        }
+
+</style>
+<body>
+<div class="Anass">
+<div class="text">  
+<div class="text2">
+  <h3> GAMES THAT ON MY WISHLIST </h3> 
+   <img src=img/Helldivers.png class="Games"> 
+   <img src=img/Reddead.png class="Games"> 
+   <img src=img/ring.png class="Games"> 
+   <img src=img/Fifa2.png class="Games"> 
+   <img src=img/Fallout.png class="Games">
+</div>
+</div>
+</div>
+
+

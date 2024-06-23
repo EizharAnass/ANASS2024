@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<head><title>MY FAMILY</title></head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+</style>
+</head>
+<body style="background-color:white;">
+
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <div class="dropdown">
+  <button class="dropbtn" onclick="myFunction()">Jump to
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-content" id="myDropdown">
+    <a href="Personal details.html">Personal Details</a>
+    <a href="Cats.html">Cats</a>
+    <a href="Games.html">Games</a>
+    <a href="Music.html">Music</a>
+    <a href="School.html">School</a>
+    <a href="University.html">University</a>
+  </div>
+  </div> 
+</div>
+
+
+
+<script>
+
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+}
+</script><style>
+.city {
+  background-color:#B07A6E;
+  color: white;
+  border: 2px;
+  margin: 20px;
+  padding: 20px;
+}
+</style>
+<body>
+
+<div class="city">
+<center><h1>MY FAMILY MEMBERS</h1></center>
+</div> 
+<center><img src="img/anass4.jpg"></center>
+
+<style>
+body{
+background-image:url('img/anass4.jpg');
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-size:100%;
+}
+</style>
+
+<style>
+.Anass{
+  background-color:#B07A6E;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ .text {
+            max-width: 45%;
+            padding: 20px;
+            text-align:right;
+        }
+
+</style>
+<body>
+<div class="Anass">
+<img src="img/Aboh.png"alt="This is picture of my father" title="My name is Emmy Jasmin Bin Othman">
+<div class="text">
+ <h1>EMMY JASMIN BIN OTHMAN (FATHER)</h1>
+    
+</div>
+</div>
+<hr>
+<style>
+.Anass{
+  background-color:#B07A6E;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ .text {
+            max-width: 45%;
+            padding: 20px;
+            text-align:right;
+        }
+
+</style>
+<body>
+<div class="Anass">
+<img src="img/Mama.png"alt="This is picture of my mother" title="My name is Zahamana Binti Zainuddin">
+<div class="text">
+ <h1>ZAHAMANA BINTI ZAINUDDIN (MOTHER)</h1>
+            
+</div>
+</div>
+<hr>
+<style>
+.Anass{
+  background-color:#B07A6E;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ .text {
+            max-width: 45%;
+            padding: 20px;
+            text-align:right
+        }
+
+</style>
+<body>
+<div class="Anass">
+<img src="img/Along.png"alt="This is picture of my brother" title="My name is Eiman Ashraff Bin Emmy Jasmin">
+<div class="text">
+ <h1>EIMAN ASHRAFF BIN EMMY JASMIN(BROTHER)</h1>
+            
+</div>
+</div>
+<hr>
+<style>
+.Anass{
+  background-color:#B07A6E;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ .text {
+            max-width: 45%;
+            padding: 20px;
+            text-align:right
+        }
+
+</style>
+<body>
+<div class="Anass">
+<img src="img/Adik.png"alt="This is picture of my sister" title="My name is Eizattee Anyss Binti Emmy Jasmin">
+<div class="text">
+ <h1>EIZATTEE ANYSS BINTI EMMY JASMIN(SISTER)</h1>
+</div>
+</div>
+

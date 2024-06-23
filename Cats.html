@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<head><title>Cats</title></head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+</style>
+</head>
+<body style="background-color:white;">
+
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <div class="dropdown">
+  <button class="dropbtn" onclick="myFunction()">Jump to
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-content" id="myDropdown">
+    <a href="Personal details.html">Personal Details</a>
+    <a href="My Family.html">My Family</a>
+    <a href="Games.html">Games</a>
+    <a href="Music.html">Music</a>
+    <a href="School.html">School</a>
+    <a href="University.html">University</a>
+  </div>
+  </div> 
+</div>
+
+
+
+<script>
+
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+}
+</script>
+<style>
+.city {
+  background-color:#B07A6E;
+  color: white;
+  border: 2px;
+  margin: 20px;
+  padding: 20px;
+}
+</style>
+<body>
+
+<div class="city">
+<center><h1>MY CATS</h1></center>
+</div> 
+
+<style>
+body{
+background-image:url('img/kucing2.jpeg');
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-size:100%;
+}
+</style>
+
+<h2 style="color:white;font-family:monospace;"> 
+One of my favourite things in this world are cats and of course i am lucky to have 7 cats that i take care of here are some photos of them;
+</h2>
+
+<img src="img/chub.jpg"  width="260" height="345"alt="This is picture of Chub" title="My name is Chub">
+<img src="img/ciki.jpg"  width="200" height="345"alt="This is picture of Ciki" title="My name is Ciki">
+<img src="img/goji.jpg"  width="200" height="345"alt="This is picture of goji" title="My name is Goji">
+<img src="img/Potty.jpg" width="240" height="345"alt="This is picture of Potty" title="My name is Potty">
+<img src="img/poyeng.jpg" width="300" height="345"alt="This is picture of Poyeng" title="My name is Poyeng">
+<img src="img/Teddy.jpg" width="240" height="345"alt="This is picture of Teddy" title="My name is Teddy">
+<img src="img/yengchik.jpg" width="240" height="345"alt="This is picture of yengchik" title="My name is Yengchik">
+<img src="img/kucing.jpg" width="240" height="345">
+<img src="img/chub2.jpg" width="240" height="345">
+<img src="img/kucing3.jpg" width="200" height="345">
+<img src="img/kucing5.jpg" width="240" height="345">
+<img src="img/kucing4.jpg" width="280" height="345">
+
+<h2 style="color:White;font-family:monospace;">They have been with me since 2023,and most of them right now are growing up.I hope they always healthy and happy and live a very good life.</h2>

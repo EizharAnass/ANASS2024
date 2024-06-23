@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<head><title>My Music</title></head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+</style>
+</head>
+<body style="background-color:white;">
+
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <div class="dropdown">
+  <button class="dropbtn" onclick="myFunction()">Jump to
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-content" id="myDropdown">
+    <a href="Personal details.html">Personal Details</a>
+    <a href="My Family.html">My Family</a>
+    <a href="Cats.html">Cats</a>
+    <a href="Games.html">Games</a>
+    <a href="School.html">School</a>
+    <a href="University.html">University</a>
+  </div>
+  </div> 
+</div>
+
+
+
+<script>
+
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+}
+</script>
+<style>
+.city {
+  background-color:white;
+  color: black;
+  border: 2px;
+  margin: 20px;
+  padding: 20px;
+}
+</style>
+<body>
+
+<div class="city">
+<center><h1>MY MUSIC</h1></center>
+</div> 
+
+<style>
+body{
+background-image:url('img/bg2.jpg');
+}
+</style>
+
+<style>
+.Anass{
+  background-color:white;
+  color: black;
+ display: flex;
+
+}
+ 
+</style>
+<body>
+<div class="Anass">
+<center><h3> I absolutely love listening to music; it has a magical way of filling my soul with joy, sparking my imagination, and transporting me to another world. Whether it's the soothing melodies of classical music, the vibrant beats of pop, the soulful rhythms of jazz, or the electrifying energy of rock, each genre speaks to my heart and allows me to escape from reality, immersing myself in a world of sound and emotion.Here are some of the bands and some song list that i love:</h3></center> 
+</div>
+</div>
+<hr>   
+<style>
+.Abdul{
+  background-color:black;
+  color: white;
+ display:flex;
+
+}
+.table {
+            flex: 2;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+
+ 
+</style>
+<body>
+<div class="Abdul">
+<img src="img/monkeys.png">
+
+<div class="table">
+            <center><h2>LIST OF MY FAVOURITE SONG AND THEIR SINGER</h2></center>
+            <table>
+                <thead>
+                    <tr>
+                        <th>SONG NAME</th>
+                        <th>SINGER</th>                   
+ </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>505</td>
+                        <td>Artic Monkeys</td>
+                    </tr>
+                    <tr>
+                        <td>It Will Rain</td>
+                        <td>Bruno Mars</td>
+                       </tr>
+                    <tr>
+                        <td>Arabella</td>
+                        <td>Artic Monkeys</td>
+                    </tr>
+		<tr>
+                        <td>Daddy Issues</td>
+                        <td>The Neighbourhood</td>
+                    </tr>
+		<tr>
+                        <td>When I was Your Man</td>
+                        <td>Bruno Mars</td>
+                    </tr>
+		<tr>
+                        <td>Payphone</td>
+                        <td>Maroon 5</td>
+                    </tr>
+		<tr>
+                        <td>I Wanna Be Yours</td>
+                        <td>Artic Monkeys</td>
+                    </tr>
+		<tr>
+                        <td>Sweater Weather</td>
+                        <td>The Neighbourhood</td>
+                    </tr>
+		<tr>
+                        <td>Locked out of Heaven</td>
+                        <td>Bruno Mars</td>
+                    </tr>
+		<tr>
+                        <td>Misery</td>
+                        <td>Maroon 5</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+
+</div>
+
+<img src="img/neighbour.png">
+<img src="img/bruno.png">
+<img src="img/Maroon5.png">
+
